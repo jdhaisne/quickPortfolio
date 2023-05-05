@@ -1,7 +1,9 @@
 <template>
   <div class="elem">
     <h2 class="elem__title">{{ props.data.title }}</h2>
-    <img width="394.5" height="264" class="elem__img" :src="props.data.img" />
+    <a :href="props.data.vercelLink"
+      ><img width="394.5" height="264" class="elem__img" :src="props.data.img"
+    /></a>
     <div class="elem__desc">{{ props.data.desc }}</div>
     <div class="elem__link__wrapper">
       <a class="elem__link elem__link--vercel" :href="props.data.vercelLink"
@@ -25,6 +27,9 @@ const props = defineProps({
   display: flex;
   flex-direction: column;
   place-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: gold;
   //   &__title {
   //   }
   //   &__img {
@@ -34,7 +39,8 @@ const props = defineProps({
   &__link {
     &__wrapper {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
+
       width: 100%;
     }
   }
