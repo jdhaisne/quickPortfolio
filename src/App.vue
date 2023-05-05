@@ -9,7 +9,7 @@ import JPortfolio from "./components/JPortfolio.vue";
     :portfolio-list="[
       {
         title: 'kanban',
-        img: './assets/imgs/kanbanScreen.png',
+        img: './src/assets/imgs/kanbanScreen.png',
         desc: 'A Simple kanban demonstration from front end mentor',
         vercelLink: 'https://kanban-task-management-five.vercel.app/',
         gitLink: 'https://github.com/jdhaisne/kanban-task-management',
