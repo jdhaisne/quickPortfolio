@@ -9,21 +9,21 @@ import JPortfolio from "./components/JPortfolio.vue";
     :portfolio-list="[
       {
         title: 'kanban',
-        img: '/assets/imgs/kanbanScreen.png',
+        img: './assets/imgs/kanbanScreen.png',
         desc: 'A Simple kanban demonstration from front end mentor',
         vercelLink: 'https://kanban-task-management-five.vercel.app/',
         gitLink: 'https://github.com/jdhaisne/kanban-task-management',
       },
       {
         title: 'fylo data storage',
-        img: '/assets/imgs/fyloScreen.png',
+        img: './assets/imgs/fyloScreen.png',
         desc: 'A Simple animation from front end mentor',
         vercelLink: 'https://fylo-data-storage-component-inky-beta.vercel.app/',
         gitLink: 'https://github.com/jdhaisne/fylo-data-storage-component',
       },
       {
         title: 'social proof section',
-        img: '/assets/imgs/socialScreen.png',
+        img: './assets/imgs/socialScreen.png',
         desc: 'A Simple example of social proof from front end mentor',
         vercelLink: 'https://social-proof-section-master-lilac.vercel.app',
         gitLink: 'https://github.com/jdhaisne/social-proof-section-master',
