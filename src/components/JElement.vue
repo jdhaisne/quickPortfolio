@@ -25,12 +25,12 @@ const props = defineProps({
   display: flex;
   flex-direction: column;
   place-items: center;
-  &__title {
-  }
-  &__img {
-  }
-  &__desc {
-  }
+  //   &__title {
+  //   }
+  //   &__img {
+  //   }
+  //   &__desc {
+  //   }
   &__link {
     &__wrapper {
       display: flex;
