@@ -14,9 +14,9 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .portfolio {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, 400px);
+  justify-content: center;
 }
 </style>

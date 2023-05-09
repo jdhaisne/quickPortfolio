@@ -30,6 +30,7 @@ const props = defineProps({
   border: 1px solid black;
   border-radius: 10px;
   background-color: gold;
+  flex-grow: 1;
   //   &__title {
   //   }
   //   &__img {
@@ -43,6 +44,9 @@ const props = defineProps({
 
       width: 100%;
     }
+  }
+  &__last {
+    flex-grow: 2;
   }
 }
 </style>

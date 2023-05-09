@@ -5,6 +5,7 @@ import JPortfolio from "./components/JPortfolio.vue";
 
 <template>
   <h1>jdhaisne's project</h1>
+
   <JPortfolio
     :portfolio-list="[
       {
