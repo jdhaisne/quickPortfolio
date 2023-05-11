@@ -27,7 +27,7 @@ const props = defineProps({
   display: flex;
   flex-direction: column;
   place-items: center;
-  border: 1px solid black;
+  // border: 1px solid black;
   border-radius: 10px;
   background-color: gold;
   flex-grow: 1;

@@ -4,6 +4,10 @@ import JPortfolio from "./components/JPortfolio.vue";
 </script>
 
 <template>
+  <!-- <video id="bgvid" playsinline autoplay muted loop>
+    <source src="/Trianglify.mp4" type="video/mp4" />
+    <source src="/clouds.webm" type="video/webm" />
+  </video> -->
   <h1>jdhaisne's project</h1>
 
   <JPortfolio
@@ -52,5 +56,17 @@ import JPortfolio from "./components/JPortfolio.vue";
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  background-position: center; /*  */
+  background-repeat: no-repeat;
 }
 </style>
